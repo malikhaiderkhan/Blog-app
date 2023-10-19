@@ -1,4 +1,4 @@
 class Like < ApplicationRecord
-  belongs_to :UserId
-  belongs_to :PostId
+  belongs_to :user
+  belongs_to :post
 end
